@@ -1,3 +1,20 @@
+#------------------------------------Ignore the files in volume element project----------------------------------
+# Ignore .vasp files(?)
+# .vasp
+test/*
+dataset/*
+
+# Tom gitignore
+AE_root/*
+area_element/test_poscar/POTCAR
+*.csv
+AreaElement.json
+tom_model_test.ipynb
+tom_volele.ipynb
+tom_pca.ipynb
+
+#----------------------------------------------below are files about IDE--------------------------------------------
+# Python gitignore template from github
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -157,4 +174,5 @@ cython_debug/
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
-#.idea/
+.idea/*
+
